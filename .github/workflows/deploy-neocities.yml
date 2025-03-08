@@ -9,13 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: "18"
-          cache: "npm"
+          node-version: lts/*
       - run: npm install
-      - run: npm build
-      - uses: bcomnes/deploy-to-neocities@v1
+      - run: npm run build
+      - name: Deploy to neocities
+        uses: bcomnes/deploy-to-neocities@v1
         with:
           api_token: ${{ secrets.NEOCITIES_TOKEN }}
           dist_dir: "_site/"
