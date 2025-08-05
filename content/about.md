@@ -15,9 +15,8 @@ I've never been much of a writer, I get lost in my thoughts and get distracted b
 
 ## Some stuff that inspired me 
 
-[A gardening guide for your mind](https://www.mentalnodes.com/a-gardening-guide-for-your-mind)
-
-[This page is under construction](https://localghost.dev/blog/this-page-is-under-construction/)
+- [A gardening guide for your mind](https://www.mentalnodes.com/a-gardening-guide-for-your-mind)
+- [This page is under construction](https://localghost.dev/blog/this-page-is-under-construction/)
 
 ## Contact
 
